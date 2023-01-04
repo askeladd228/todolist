@@ -1,0 +1,1 @@
+(()=>{const o=document.querySelector("#projectButton"),e=document.querySelector(".project"),t=document.querySelector(".content");addProjectButton.addEventListener("click",(function(){return alert("Your Project Name?","")})),console.log(o),console.log(e),console.log("asd"),console.log(t)})();

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="./index.bundle.js" defer></script>
+  <div class="container">
+    <div class="left">
+      <div class="inputs">
+
+          <form id="myForm">
+                  <div>
+                    <label for="description">DESCRIPTION</label>
+                    <input type="text" id="description" name="description" required>
+                  </div>
+                  <div>
+                    <label for="title">TITLE</label>
+                    <input type="text" id="title" name="title" required>
+                  </div>
+                  <div>
+                    <label for="due">DUE DATE</label>
+                    <input type="date" id="due" name="due" required>
+                  </div>
+                  <div>
+                    <label>IMPORTANCE</label>
+                    <div>
+                      <input type="radio" id="read" name="drone" value="Do It Asap">
+                     <label for="read">Do It Asap</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="notRead" name="drone" value="Do It While You're At It">
+                      <label for="notRead">Do It While You're At It</label>
+                    </div>
+              </div>
+          </form>
+      </div>
+
+      <div class="buttons">
+        <button class="display">Display Your Projects</button>
+        <button class="create">Create Your Project</button>
+      </div>
+    </div>
+
+    <div class="libraryContainer">
+
+    </div>
+  </div>
+
+  
+</body>
+</html>

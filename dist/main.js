@@ -1,0 +1,1 @@
+(()=>{const o=document.querySelector("#projectButton"),e=document.querySelector(".project"),c=document.querySelector(".content");console.log(o),console.log(e),console.log("asd"),console.log(c)})();
